@@ -1,7 +1,8 @@
 # Mudrex Trading SDK
 
-[![Python Version](https://img.shields.io/pypi/pyversions/mudrex-trading-sdk.svg)](https://pypi.org/project/mudrex-trading-sdk/)
+[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![GitHub](https://img.shields.io/github/stars/DecentralizedJM/mudrex-trading-sdk?style=social)](https://github.com/DecentralizedJM/mudrex-trading-sdk)
 
 **The official Python SDK for [Mudrex Futures Trading API](https://docs.trade.mudrex.com)** - Trade crypto futures programmatically with ease.
 
@@ -15,13 +16,14 @@
 
 ## 📦 Installation
 
+### Install from GitHub (Recommended)
 ```bash
-pip install mudrex-trading-sdk
+pip install git+https://github.com/DecentralizedJM/mudrex-trading-sdk.git
 ```
 
-Or install from source:
+### Or clone and install locally
 ```bash
-git clone https://github.com/mudrex/mudrex-trading-sdk.git
+git clone https://github.com/DecentralizedJM/mudrex-trading-sdk.git
 cd mudrex-trading-sdk
 pip install -e .
 ```
@@ -247,7 +249,7 @@ Check out the [examples/](examples/) folder:
 
 ```bash
 # Clone the repo
-git clone https://github.com/mudrex/mudrex-trading-sdk.git
+git clone https://github.com/DecentralizedJM/mudrex-trading-sdk.git
 cd mudrex-trading-sdk
 
 # Install with dev dependencies
